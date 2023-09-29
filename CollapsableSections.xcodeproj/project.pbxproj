@@ -3,33 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FA643B662634863A006B5D31 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = FA643B652634863A006B5D31 /* Readme.md */; };
-		FA897FC526317E560098C80A /* CollapsableSectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FC426317E560098C80A /* CollapsableSectionsApp.swift */; };
-		FA897FC726317E560098C80A /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FC626317E560098C80A /* SectionListView.swift */; };
+		FA897FC526317E560098C80A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FC426317E560098C80A /* App.swift */; };
+		FA897FC726317E560098C80A /* SectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FC626317E560098C80A /* SectionsListView.swift */; };
 		FA897FC926317E580098C80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA897FC826317E580098C80A /* Assets.xcassets */; };
 		FA897FCC26317E580098C80A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA897FCB26317E580098C80A /* Preview Assets.xcassets */; };
-		FA897FD526317E980098C80A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FD426317E980098C80A /* Section.swift */; };
-		FA897FD9263180910098C80A /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FD8263180910098C80A /* SectionView.swift */; };
-		FA897FDC263184B00098C80A /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FDB263184B00098C80A /* ItemView.swift */; };
-		FAD2076E2634388B00022C52 /* Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2076D2634388B00022C52 /* Image+SFSymbol.swift */; };
+		FA897FD526317E980098C80A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FD426317E980098C80A /* Model.swift */; };
+		FA897FD9263180910098C80A /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA897FD8263180910098C80A /* SectionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB0997462AC6F82D00BC0CC4 /* simulator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simulator.gif; sourceTree = "<group>"; };
 		FA643B652634863A006B5D31 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		FA897FC126317E560098C80A /* CollapsableSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA897FC426317E560098C80A /* CollapsableSectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableSectionsApp.swift; sourceTree = "<group>"; };
-		FA897FC626317E560098C80A /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		FA897FC426317E560098C80A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		FA897FC626317E560098C80A /* SectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsListView.swift; sourceTree = "<group>"; };
 		FA897FC826317E580098C80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA897FCB26317E580098C80A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA897FCD26317E580098C80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA897FD426317E980098C80A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		FA897FD8263180910098C80A /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
-		FA897FDB263184B00098C80A /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
-		FAD2076D2634388B00022C52 /* Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+SFSymbol.swift"; sourceTree = "<group>"; };
+		FA897FD426317E980098C80A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA897FD8263180910098C80A /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +43,7 @@
 		FA897FB826317E560098C80A = {
 			isa = PBXGroup;
 			children = (
+				DB0997462AC6F82D00BC0CC4 /* simulator.gif */,
 				FA643B652634863A006B5D31 /* Readme.md */,
 				FA897FC326317E560098C80A /* CollapsableSections */,
 				FA897FC226317E560098C80A /* Products */,
@@ -63,12 +61,10 @@
 		FA897FC326317E560098C80A /* CollapsableSections */ = {
 			isa = PBXGroup;
 			children = (
-				FA897FC426317E560098C80A /* CollapsableSectionsApp.swift */,
-				FA897FD426317E980098C80A /* Section.swift */,
-				FA897FDB263184B00098C80A /* ItemView.swift */,
-				FA897FD8263180910098C80A /* SectionView.swift */,
-				FA897FC626317E560098C80A /* SectionListView.swift */,
-				FAD2076D2634388B00022C52 /* Image+SFSymbol.swift */,
+				FA897FC426317E560098C80A /* App.swift */,
+				FA897FD426317E980098C80A /* Model.swift */,
+				FA897FC626317E560098C80A /* SectionsListView.swift */,
+				FA897FD8263180910098C80A /* SectionRow.swift */,
 				FA897FC826317E580098C80A /* Assets.xcassets */,
 				FA897FCD26317E580098C80A /* Info.plist */,
 				FA897FCA26317E580098C80A /* Preview Content */,
@@ -110,8 +106,9 @@
 		FA897FB926317E560098C80A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					FA897FC026317E560098C80A = {
 						CreatedOnToolsVersion = 12.4;
@@ -154,12 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA897FD9263180910098C80A /* SectionView.swift in Sources */,
-				FA897FDC263184B00098C80A /* ItemView.swift in Sources */,
-				FAD2076E2634388B00022C52 /* Image+SFSymbol.swift in Sources */,
-				FA897FD526317E980098C80A /* Section.swift in Sources */,
-				FA897FC726317E560098C80A /* SectionListView.swift in Sources */,
-				FA897FC526317E560098C80A /* CollapsableSectionsApp.swift in Sources */,
+				FA897FD9263180910098C80A /* SectionRow.swift in Sources */,
+				FA897FD526317E980098C80A /* Model.swift in Sources */,
+				FA897FC726317E560098C80A /* SectionsListView.swift in Sources */,
+				FA897FC526317E560098C80A /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +198,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -264,6 +260,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -292,7 +289,7 @@
 				DEVELOPMENT_TEAM = N4JB8BTR5D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CollapsableSections/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +311,7 @@
 				DEVELOPMENT_TEAM = N4JB8BTR5D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CollapsableSections/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

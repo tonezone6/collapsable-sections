@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CollapsableSectionsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            SectionListView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      NavigationStack {
+        SectionsListView()
+          .navigationTitle("Sections")
+      }
     }
+  }
 }
